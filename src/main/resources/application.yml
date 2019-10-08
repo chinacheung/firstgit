@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql:///mybatis_plus?useSSL=false&serverTimezone=GMT%2B8&characterEncoding=utf8
+    # Spring Boot 2.1.8.REALEASE 引入的 MySQL 驱动的版本是 8.0.17，此时若将驱动程序的类名写成 com.mysql.jdbc.Driver 会引发警告
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    root: warn
+    cn.cheung.mp.mpfirst.dao: trace
+  pattern:
+    console: '%p%m%n'
