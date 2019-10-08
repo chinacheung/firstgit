@@ -394,4 +394,9 @@ public class MpCrudApplicationTests {
     public void testGit() {
         System.out.println("使用 Git。");
     }
+    
+    @Test
+    public void testGitHub() {
+        System.out.println("使用 GitHub 添加该方法。");
+    }
 }
