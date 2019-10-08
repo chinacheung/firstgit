@@ -390,7 +390,8 @@ public class MpCrudApplicationTests {
         LambdaQueryWrapper<User> lambdaQueryWrapper = Wrappers.lambdaQuery();
     }
 
-
-
-
+    @Test
+    public void testGit() {
+        System.out.println("使用 Git。");
+    }
 }
