@@ -399,4 +399,9 @@ public class MpCrudApplicationTests {
     public void testGitHub() {
         System.out.println("使用 GitHub 添加该方法。");
     }
+
+	@Test
+	public void testLocal() {
+		System.out.println("本地仓库添加的方法。");
+	}
 }
