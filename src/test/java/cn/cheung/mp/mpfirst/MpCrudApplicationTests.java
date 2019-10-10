@@ -402,10 +402,11 @@ public class MpCrudApplicationTests {
 
     @Test
     public void testLocal() {
-	System.out.println("本地仓库添加的方法。");
+		System.out.println("本地仓库添加的方法。");
+	}
     
     @Test
     public void testRemote() {
-	System.out.println("远程仓库添加的方法。");
+		System.out.println("远程仓库添加的方法。");
     }
 }
