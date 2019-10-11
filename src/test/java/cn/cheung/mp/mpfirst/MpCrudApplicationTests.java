@@ -409,4 +409,9 @@ public class MpCrudApplicationTests {
     public void testRemote() {
 		System.out.println("远程仓库添加的方法。");
     }
+
+	@Test
+	public void test01() {
+		System.out.println("测试。");
+	}
 }
